@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Rawi Rush.exe" version="1.0.0.0" publicKeyToken="6a00565fa0e32aae" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon (1).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Rawi Rush" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Rawi Rush.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dRg7Ol01cg5c6VisvAPqcSR2lndj2StrCXn1Y8DAdlI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2190720">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.7" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bYdrJXqXmV0hByrNRFgGM0aFFhIRRcwhgnftwY+XEDA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2t7OJu++jE8gqgxvzcSYi65h9IKc370wayLX3jv6lHk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Rawi Rush.exe" size="20236256">
+      <assemblyIdentity name="Rawi Rush" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HfQ/esjTDzj6fyCCEU2ShKifFHNPHihlER6L0xw2ztc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon (1).ico" size="432747">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+3zZiweoiambMzUKDoZL8X7mtZzEDsXamCf6AFWLshs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Rawi Rush.exe.config" size="881">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IUX+QylTXFHSFktDtjy+wFzb5ZwbYBF4W5RPmzI6G0A=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-6TD6AR7\mekki" issuerKeyHash="fa702458ea203af7d84d4c20479324724d3188c2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rzAvHQQt+qUi9BwDGw6WtjXN4UP/Yz+OqaWk7CTqU1U=</DigestValue></Reference></SignedInfo><SignatureValue>c3NmrP/TwAENBLftH/Q8XqMEyDhdw16tjyqiVm1yRyA+LGlzAMox4dRYcRjA92Hn2V35j8a+JWZH2Q5ehBIvcpfVZWRs7UysHNktLGggYtACOe/YG22grj2EKyZjDVPGTQ7q0dfB8Ky0dv0EPjNclTHEkKIDegUp5l4dODJGPuw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uobJLocz4nXXjy6rCI9HqVdcCijGAUuzqZfM5EPQk3oLOenY8etMWGAjIX6FLz1fE4GZctvLDs8DgoSDuzQeZ1rrLN9AVQ/UxFJRTueqvwBbapfK74w602BFLuNEs/a4YcXIduwY6mXtC2eR02YAZ7G7FcJzVnG46adRNeGy9t0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5553ea24eca4a5a98e3f63ff43e1cd35b6960e1b031cf422a5fa2d041d2f30af" Description="" Url=""><as:assemblyIdentity name="Rawi Rush.exe" version="1.0.0.0" publicKeyToken="6a00565fa0e32aae" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-6TD6AR7\mekki</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qBuXuiMJyMf/jCzvl7XXI6E6bUbsToLRGBdBNppBwr0=</DigestValue></Reference></SignedInfo><SignatureValue>qzvxqJTSZLnZWS516NMsEv4rqBeR1eL9CWbw4Cphni1Ag00qRO0OkZJpTPTJNneXtH7F4LJheqV5q/1Q4yIIevkd3G2lCPsI8le0T3mf9ViUg6ZOXLRr3gvFqCj/3Nx4t+5H6VB7OaDNdkMvKB4OnQqZlHLxt+tXC0kAFNtjdIk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uobJLocz4nXXjy6rCI9HqVdcCijGAUuzqZfM5EPQk3oLOenY8etMWGAjIX6FLz1fE4GZctvLDs8DgoSDuzQeZ1rrLN9AVQ/UxFJRTueqvwBbapfK74w602BFLuNEs/a4YcXIduwY6mXtC2eR02YAZ7G7FcJzVnG46adRNeGy9t0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQeIM6MseXzJtPKyZTYl9zFTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAVABEADYAQQBSADcAXABtAGUAawBrAGkwHhcNMjUwNTA2MTczMzI3WhcNMjYwNTA2MjMzMzI3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADYAVABEADYAQQBSADcAXABtAGUAawBrAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALqGyS6HM+J1148uqwiPR6lXXAooxgFLs6mXzORD0JN6Cznp2PHrTFhgIyF+hS89XxOBmXLbyw7PA4KEg7s0Hmda6yzfQFUP1MRSUU7nqr8AW2qXyu+MOtNgRS7jRLP2uGHFyHbsGOpl7QtnkdNmAGexuxXCc1ZxuOmnUTXhsvbdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAZj25Rowl/Ju5/joj0ZDQ8QcESfrtY+Isw0J1JWUKjPVGOTYHIDrxAZLZJmvmQIDZpK5yeUoLTD1oCFZdVKwpg1J39vWm4UTTVf8Ziy+wCTmBwja6+ls6hmBcqI6ckO8wUpRuZsMQkp5gMWnLiSOPJaQ9uoUL0HZChIXWGYe3eCk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

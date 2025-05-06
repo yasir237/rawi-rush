@@ -4,7 +4,7 @@
   <img src = 'https://github.com/user-attachments/assets/23b13318-91a9-438a-9ab8-8b3df2ef98d7' >
 </div>
 
-Rawi Rush, C# ve Windows Forms kullanılarak geliştirdiğim bir araba yarış oyunu. `Bu oyunu 1. sınıftayken tasarladım`, ancak kullandığım bazı görsellerin telif haklarından dolayı yayınlamamıştım. Şimdi görselleri değiştirerek GitHub'da paylaşıyorum.
+Rawi Rush, C# ve Windows Forms kullanılarak geliştirdiğim bir araba yarış oyunu. `Bu oyunu 1. sınıftayken tasarladım`, ancak kullandığım bazı görsellerin telif haklarından dolayı yayınlamamıştım. Sadece görselleri değiştirdim, GitHub'da paylaştım.
 
 ## 🎮 Oyuna Genel Bakış
 
